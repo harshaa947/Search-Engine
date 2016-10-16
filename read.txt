@@ -1,0 +1,17 @@
+Dear students,
+
+We have updated the problem statement of assignment 5 on the course homepage.
+
+Please note a few clarifications for assignments 4 and 5:
+1. Here is the updated list of special words/characters:
+   (a) Connector words: a, an, the, they, these, this, for, is, are, was, of, or, and, does, will, whose
+   (b) Punctuation marks: { } [ ] < > = ( ) . , ; ' " ? # ! - :
+   (c) Singular plural mappings:  (stack, stacks), (structure, structures), (application, applications)
+    Consider this list as exhaustive. Do not make a special case for any more character/word in your search engine.
+
+2. In the problem statement of assignment 4, we had asked you to ignore the punctuation marks in the webpage. However, instead of deleting these characters, please replace them with a space character. So the string "Dequeue<Integer>" becomes two strings, "Dequeue" and "Integer".
+
+3. In this assignment, the Hashtable maps a string to its WordEntry. As we know, the Hashtable contains an array of buckets, where each bucket can store multiple WordEntries. The "int getHashIndex(string str)" method in the Hashtable should map a string to an integer. This integer represents the index of the bucket in which the WordEntry corresponding to the string "str" may have been stored. It is your responsibility to choose an appropriate hash function for your search engine.
+
+Let me know if you have any more queries regarding these assignments.
+
